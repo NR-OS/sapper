@@ -5,6 +5,8 @@ language: node_js
 node_js:
   - "stable"
 
+cache: npm
+
 env:
   global:
     - BUILD_TIMEOUT=10000
